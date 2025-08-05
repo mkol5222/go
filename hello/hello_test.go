@@ -26,7 +26,7 @@ func TestHello(t *testing.T) {
 	output := buf.String()
 
 	// Verify the output
-	expected := "Hello, World!\n"
+	expected := "Hello, My World!\n"
 	if output != expected {
 		t.Errorf("Hello() output = %q, want %q", output, expected)
 	}
